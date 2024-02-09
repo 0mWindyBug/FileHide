@@ -17,7 +17,7 @@ we register both pre and post filters for IRP_MJ_DIRECTORY_CONTROL
 
 the pre filter is responsible to reduce overhead by filtering out uninteresting directory controls and returning FLT_PREOP_SUCCESS_NO_CALLBACK 
 
-the post filter , which is invoked only for the directory controls with minor function code of query , is responsible for parsing the query results buffer and removing our file 
+the post filter , which is invoked only for directory queries we care about , is responsibble for parsing the query results buffer structure and removing the file to hide 
 
 ***************************
 # Demo
