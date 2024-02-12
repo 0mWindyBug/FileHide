@@ -21,6 +21,12 @@ the post filter , which is invoked only for directory queries we care about , is
 
 ***************************
 # Demo
+before loading our FileHide
+![FileHide_Before](https://github.com/0mWindyBug/FileHide/assets/139051196/d9861966-f4a2-46b6-b869-1a77a5d9660a)
+
+after loading FileHide
+
+![FileHide_After](https://github.com/0mWindyBug/FileHide/assets/139051196/974240d2-a923-415b-8c02-174741dcbe7e)
 
 
   
